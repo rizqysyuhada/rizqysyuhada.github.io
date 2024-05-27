@@ -261,7 +261,7 @@ nav ul li a {
 }
 
 .portfolio-cover {
-    height: 250px;
+    height: 400px;
 }
 
 .portfolio-cover img {
@@ -297,7 +297,19 @@ nav ul li a {
     border: 1px solid var(--borderCollor);
     padding: 0.4rem 1rem;
     color: var(--TextColor1);
-    background: var(--IconColor);
+    background: var(--IconColorHover);
+}
+
+#sertifikat {
+    background: var(--BackgroundColor1);
+    padding: var(--sectionPadding);
+}
+
+.sertifikat {
+    border-radius: var(--itemBorderradius);
+    overflow: hidden;
+    background: var(--BackgroundColor3);
+    border: 1px solid var(--borderCollor);
 }
 
 .education-years {
